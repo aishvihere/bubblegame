@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 219, 225);
+    height: 100%;
+    width: 100%;
+
+}
+
+#main .panel {
+    
+    overflow: hidden;
+    background-color: rgb(254, 244, 252);
+    height: 82%; 
+    width: 80%;
+    border: 1px solid rgb(44, 42, 42);
+    border-radius: 10px;
+
+}
+
+.pnltop {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(25, 42, 50);
+    
+}
+
+
+
+.pnltop h4{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.elem{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+    width: 10%;
+    
+    
+}
+
+.box {
+    color: rgb(25, 71, 83);
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 35%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.pnlbtm{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 20px;
+    
+    height: calc(100%-100px);
+    width: 100%;
+    
+}
+
+.pnlbtm .bubble{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(66, 114, 145);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.bubble:hover{
+    background-color: rgb(15, 15, 43);
+    cursor: pointer;
+}
